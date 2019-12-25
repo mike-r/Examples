@@ -16,6 +16,7 @@ ser = serial.Serial(
 
 
 
+
 while 1:
     string =ser.readline()
     print string
