@@ -14,6 +14,8 @@ ser = serial.Serial(
     timeout=1
 )
 
+
+
 while 1:
     string =ser.readline()
     print string
